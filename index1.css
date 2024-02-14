@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: space-evenly
+    margin: 0px;
+    
+    
+}
+
+.skycontainer{
+    display: flex;
+    width: 100vh;
+    justify-content: space-around;
+    margin: 5px;
+    background: rgb(44 52 76);
+    
+    
+    
+    
+}
+
+
+.ground {
+    display: flex;
+    position: relative;
+    margin: 0px;
+    flex-grow: 5px;
+    
+    
+}
+
+.trees {
+    margin: 5px;
+    padding: 50px;
+    font-size: 500px;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    color: green;
+    background:rgb(44 52 76);
+    
+}
+
+.house {
+    font-size: 400px;
+    margin-top: 35vh;
+    margin-right: 20vh;
+    z-index: 2;
+    position:absolute;
+    left: 1300px;
+    color:#855213;
+    justify-content:center;
+   
+    
+}
+
+.star {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 150px;
+    font-size: 60px;
+    color: gold
+   
+}
